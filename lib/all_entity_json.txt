@@ -1,0 +1,623 @@
+
+/// Base 1
+{
+"code":1,
+"data":null,
+"success":false,
+"requestId":null,
+"message":""
+}
+
+/// ChatMessage 2
+{
+"userId":"",
+"uid":"",
+"headImg":"",
+"nickName":"",
+"extra":"",
+"content":"",
+"messageId":1,
+"messageType":"",
+"sentTime":1,
+"unRead":false,
+}
+
+/// Login 3
+{
+  "code": 200,
+  "data": {
+    "outRole": null,
+    "userInfo": {
+      "charmLevel": null,
+      "channel": 5,
+      "source": "PHONE",
+      "cityId": 0,
+      "empty": false,
+      "vsId": "114737205",
+      "advertAaid": null,
+      "initBasicInfoBySystem": null,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "pris": [],
+      "appKey": "11000001",
+      "id": 28842896,
+      "lat": 0.0,
+      "area": "",
+      "headImg": "https://video-qa.lavideo.vip/1/20230825/headImg_452108658150460078835278994132564_1692935330360435_0_1477996104703606784.jpg",
+      "lng": 0.0,
+      "productId": 301,
+      "level": null,
+      "invitation": null,
+      "extendInfo": "{\"profile\":\"沧浪之水清兮，可以濯我缨。沧浪之水浊兮，可以濯我足。 — 先秦·佚名《孺子歌》\"}",
+      "authInfo": "",
+      "privatePhotoUrl": null,
+      "name": "",
+      "campaign": "",
+      "abResult": {},
+      "displayId": 28842896,
+      "device": "TKQ1.220829.002",
+      "status": 0,
+      "birthday": "1995-08-26 00:00:00",
+      "gmtLastLogin": "2023-09-08 11:22:27",
+      "functionAuth": {
+        "enableMatchBot": null,
+        "enableBuyVip": null,
+        "enableMsgBot": null,
+        "enableScreenshot": false,
+        "putInUser": null,
+        "enableFourthPay": null,
+        "enableUseVoiceRoom": null,
+        "enableRoomTab": null,
+        "naturalUser": null
+      },
+      "role": "0",
+      "gmtModify": "2023-09-08 11:22:26",
+      "albumNum": 0,
+      "multiLang": "",
+      "specialId": null,
+      "cityName": "",
+      "countryCode": "US",
+      "nickname": "lucky♌",
+      "privateVideoUrl": null,
+      "lang": "",
+      "secretNum": 0,
+      "email": "",
+      "sex": 1,
+      "mobile": "+12222211111",
+      "gmtCreate": "2023-08-17 19:10:12",
+      "tagUrlList": null,
+      "userId": "452108658150460078835278994132564",
+      "newUser": null,
+      "invitationH5": null,
+      "isRegister": 1
+    },
+    "needGuide": null,
+    "token": "1SRZ61BVSGnE/H4s/2ahug==",
+    "svipBound": null
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+/// UserAiTagEnums 4
+
+{
+  "code": 200,
+  "data": {
+    "personality": [
+      {
+        "id": 0,
+        "url": null,
+        "desc": "Handsome"
+      }
+    ],
+    "purpose": [
+      {
+        "id": 2,
+        "url": null,
+        "desc": "New Friends"
+      }
+    ],
+    "interest": [
+      {
+        "id": 0,
+        "url": null,
+        "desc": "Privacy Secret"
+      }
+    ],
+    "appId": null,
+    "userId": null
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+
+/// RegularPhotoAlbum 5
+
+{
+  "code": 200,
+  "success": true,
+  "requestId": null,
+  "hasMore": true,
+  "pageSize": 16,
+  "page": 1,
+  "totalCount": 3,
+  "message": "successful",
+  "items": [
+    {
+      "gmt_create": null,
+      "address": "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209330270147_2_1479145344339345408.jpg",
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "gmt_modify": null,
+      "sort": 2,
+      "id": 700006,
+      "title": "headImg_452108658150460078835278994132564_1693209330270147_2.jpg",
+      "userId": "452108658150460078835278994132564",
+      "operator": "",
+      "status": 1
+    },
+    {
+      "gmt_create": null,
+      "address": "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209329636711_1_1479145341608853504.jpg",
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "gmt_modify": null,
+      "sort": 1,
+      "id": 700005,
+      "title": "headImg_452108658150460078835278994132564_1693209329636711_1.jpg",
+      "userId": "452108658150460078835278994132564",
+      "operator": "",
+      "status": 1
+    },
+    {
+      "gmt_create": null,
+      "address": "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209328603163_0_1479145338815447040.jpg",
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "gmt_modify": null,
+      "sort": 0,
+      "id": 700004,
+      "title": "headImg_452108658150460078835278994132564_1693209328603163_0.jpg",
+      "userId": "452108658150460078835278994132564",
+      "operator": "",
+      "status": 1
+    }
+  ]
+}
+
+
+/// UserAccountDetail 6
+{
+      "code": 200,
+      "data": {
+        "hitSongCount": null,
+        "diamonds": 0,
+        "gmtModify": null,
+        "agentLimit": 0,
+        "vigor": 0.0,
+        "nobleExpire": null,
+        "nobleBuyWay": null,
+        "gold": 0,
+        "rideLevel": null,
+        "vipLevel": null,
+        "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+        "id": null,
+        "productId": null,
+        "userGrade": 0,
+        "cashOutVigor": null,
+        "follows": null,
+        "vipType": null,
+        "gmtCreate": null,
+        "userId": "452108658150460078835278994132564",
+        "anchorLevel": null,
+        "nobleLevel": null,
+        "fans": null,
+        "vipExpire": null,
+        "vipStatus": 0,
+        "richLevel": null,
+        "payStatus": 0
+      },
+      "success": true,
+      "requestId": null,
+      "message": "successful"
+    }
+
+
+   /// QuickReplyMessages 7
+{
+  "code": 200,
+  "data": [
+    {
+      "msgContent": "❤️ Hi, can we chat?"
+    },
+    {
+      "msgContent": "Your smile attracts me."
+    },
+    {
+      "msgContent": "I like your style"
+    },
+    {
+      "msgContent": "Do we share interests"
+    }
+  ],
+  "success": true,
+  "requestId": null,
+  "count": 0,
+  "message": "successful"
+}
+
+// UpdateApp 8
+{
+  "code": 200,
+  "data": [
+    {
+      "owner": null,
+      "productId": 301,
+      "gmtModify": "2023-08-24 13:08:29",
+      "sort": 0,
+      "cityId": -1,
+      "gmtCreate": "2023-08-24 13:08:29",
+      "parentId": 0,
+      "biz": 0,
+      "enable": true,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "name": "升级开关（0非强制1强制）",
+      "startTime": "2023-08-24 13:08:29",
+      "id": 2276,
+      "endTime": "2023-08-24 13:08:29",
+      "value": "10001_0",
+      "key": "updateVersion",
+      "classType": 4
+    }
+  ],
+  "success": true,
+  "requestId": null,
+  "count": 0,
+  "message": "successful"
+}
+
+
+/// MoneyConfig 8
+
+{
+  "code": 200,
+  "data": [
+    {
+      "itemType": 3,
+      "gmtModify": "2023-08-24 13:23:01",
+      "channel": 0,
+      "origPrice": null,
+      "discount": null,
+      "type": 2,
+      "title": "$0.99",
+      "itemOrigCount": null,
+      "enable": true,
+      "configId": "VIP01",
+      "price": 0.99,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "showType": 0,
+      "id": 582,
+      "awardValue": 0,
+      "charge": null,
+      "productId": 301,
+      "sort": 0,
+      "gmtCreate": "2023-08-24 13:23:01",
+      "itemCount": 30,
+      "name": "vip01",
+      "abVersion": 0,
+      "subType": -1,
+      "desc": "",
+      "awardType": 3
+    }
+  ],
+  "success": true,
+  "requestId": null,
+  "count": 0,
+  "message": "successful"
+}
+
+
+/// QuerySeekRecommendList 9
+{
+  "code": 200,
+  "data": {
+    "normalCount": 20,
+    "matchRate": 0.5,
+    "angleList": [
+      {
+        "birthday": "1989-07-08 17:35:36",
+        "headImg": "http://mf.wakatea.com/tami/n20210708/1625736935853.png",
+        "distance": 17.4,
+        "purpose": null,
+        "onlineStatus": 0,
+        "sex": 0,
+        "description": "call me darling👅",
+        "userId": "338151374131554153336312011376336",
+        "uid": 28843074,
+        "personality": null,
+        "interest": null,
+        "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+        "nickname": "Amiya",
+        "age": 35,
+        "covers": [
+          "http://mf.wakatea.com/tami/n20210708/1625736895729.png",
+          "http://mf.wakatea.com/tami/n20210708/1625736906533.png",
+          "http://mf.wakatea.com/tami/n20210708/1625736919005.png"
+        ]
+      }
+    ]
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+
+
+
+/// QuerySeekLikesVisitors 10
+{
+  "code": 200,
+  "success": true,
+  "requestId": null,
+  "hasMore": true,
+  "pageSize": 20,
+  "page": 1,
+  "totalCount": 67,
+  "message": "successful",
+  "items": [
+    {
+      "birthday": "1993-04-15 11:37:08",
+      "headImg": "http://gl.wakatea.com/metu/n20200402/1585826946652.jpg",
+      "distance": 17.9,
+      "purpose": null,
+      "onlineStatus": 0,
+      "sex": 0,
+      "description": "Let‘s talk about fun☎️👅",
+      "userId": "6312582024103952622425453258881212",
+      "uid": 28843032,
+      "personality": null,
+      "interest": null,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "nickname": "Pancake",
+      "age": 31,
+      "covers": [
+        "http://gl.wakatea.com/metu/n20200402/1585826968123.jpg",
+        "http://gl.wakatea.com/metu/n20200402/1585826976503.jpg"
+      ]
+    }
+  ]
+}
+
+/// QuerySeekAngleInfo 11
+{
+  "code": 200,
+  "data": {
+    "birthday": "1995-08-26 00:00:00",
+    "headImg": "https://video-qa.lavideo.vip/1/20230825/headImg_452108658150460078835278994132564_1692935330360435_0_1477996104703606784.jpg",
+    "distance": null,
+    "purpose": [
+      {
+        "id": 2,
+        "url": null,
+        "desc": "New Friends"
+      }
+    ],
+    "onlineStatus": null,
+    "sex": 1,
+    "description": "沧浪之水清兮，可以濯我缨。沧浪之水浊兮，可以濯我足。 — 先秦·佚名《孺子歌》",
+    "userId": null,
+    "uid": null,
+    "personality": [
+      {
+        "id": 0,
+        "url": null,
+        "desc": "Handsome"
+      }
+    ],
+    "interest": [
+      {
+        "id": 0,
+        "url": null,
+        "desc": "Privacy Secret"
+      }
+    ],
+    "appId": null,
+    "nickname": "lucky♌",
+    "age": 29,
+    "covers": [
+      "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209330270147_2_1479145344339345408.jpg",
+      "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209329636711_1_1479145341608853504.jpg",
+      "https://video-qa.lavideo.vip/1/20230828/headImg_452108658150460078835278994132564_1693209328603163_0_1479145338815447040.jpg"
+    ]
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+
+/// MoneyConfig 12
+{
+  "code": 200,
+  "data": [
+    {
+      "itemType": 3,
+      "gmtModify": "2023-08-24 13:23:01",
+      "channel": 0,
+      "origPrice": null,
+      "discount": null,
+      "type": 2,
+      "title": "$0.99",
+      "itemOrigCount": null,
+      "enable": true,
+      "configId": "VIP01",
+      "price": 0.99,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "showType": 0,
+      "id": 582,
+      "awardValue": 0,
+      "charge": null,
+      "productId": 301,
+      "sort": 0,
+      "gmtCreate": "2023-08-24 13:23:01",
+      "itemCount": 30,
+      "name": "vip01",
+      "abVersion": 0,
+      "subType": -1,
+      "desc": "",
+      "awardType": 3
+    }
+  ],
+  "success": true,
+  "requestId": null,
+  "count": 0,
+  "message": "successful"
+}
+
+/// QueryPayConfigExt 13
+
+{
+  "code": 200,
+  "data": {
+    "channelType": 1
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+/// QueryAppPayChannel 14
+
+{
+  "code": 200,
+  "data": [
+    {
+      "country": "",
+      "gmtModify": null,
+      "presentRate": 0.0,
+      "probability": 100,
+      "icon": "http://video-qa.lavideo.vip/noka/n20200917/1600342881509.png",
+      "sort": 0,
+      "gmtCreate": null,
+      "payType": 0,
+      "enable": 1,
+      "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+      "payChannel": "upi",
+      "id": 227
+    }
+  ],
+  "success": true,
+  "requestId": null,
+  "count": 1,
+  "message": "successful"
+}
+
+
+/// Recharge 15
+{
+  "code": 200,
+  "data": {
+    "orderId": "1483414746719125504",
+    "extra": "{}"
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+
+/// UploadResourceConfiguration 16
+{
+  "code": 200,
+  "data": {
+    "ossType": "ali",
+    "accessUrl": "http://video-qa.lavideo.vip/1/20230909/headImg_454768780285271441355350595210477_1694227716534547_0_1483416767203442688.jpg",
+    "filePath": "1/20230909/headImg_454768780285271441355350595210477_1694227716534547_0_1483416767203442688.jpg",
+    "accessSecret": "8vGZzTcHBJkE9z3u7CsQL3W7Pgrf9neCkLXm5vtQnGtP",
+    "bucket": "lavie-web-video-qa",
+    "securityToken": "CAISkgR1q6Ft5B2yfSjIr5eGPcCN2axWgvXfNGKDi0ENQOd5vbLmkjz2IHhOdHhgAuwZtvwwm29U6vsflr12RpNEAEvfdo5r445J/BnkP9Gc45QJH22sR8T3d1KIAjvXgeVZCYeQFaFoEJXAQlTAkTAJTdKYERypQ12iN7CQlJdjda55dwKkbD1AdnQ/RGZmr8BIdxm0Mu22YDHnnk3aDkdjpmgZjnhku5yi3uqW6BfVkD+czfQO9bz2OYSDZcthN4sdNtCux75Sd7Hd6CdK9wMokaBtl/5g+CzbhtiHH0IzhRKdKLjp6tloJQNBb7Imed1Dt+OutPt5pu3ai4nS1hJRPPlcSTjiXISnycema+SyLYQScrPjP3nR3/WSMoX0qwo+fU8DMARDd7hbLWRrWyE0TjbTJpeu4kzhZR+yKdiCy7pk+JBy1UnN4N6WJkCGWamkySIfM5NGaiFODRMN2nH7eaIrahFFd0gdZ4yYVoJudhtT25qK2ATZTX9kyX4F/a+8NbG0zKkUctf4RYkUk9hfNpBPrWonCkv6Qfewi0sZcyl8SNQe2aL2a5ik8+3HkqfBZefYC/1CpVhQNC7QoyeKDGpZam/TnoR7NQHAopyNkfWRr889S1MUi4oBXV3fQ7FEtEd75qa+1ROX/dL4X2qilmhCoYGCr9gfshc7Jq/73LDO4mODphGcaLU0hddtg93c5e8yEhqAARyffLxf0YKirM2KB9mRxUh8lOLalpg4HG/nJ+8yjbJtmBjr7OnxaQolCS3HExb76ifJgum48Cu7Js3tKgfvGaq578skxPA687vJJ5tfK/ZihJMGqZfQPFWr7RPK3K1QVidoSqe9TvqH+xfPaRq9yFlL96fObk7mAgk6d6gMCWaoIAA=",
+    "uploadHost": "https://oss-ap-southeast-1.aliyuncs.com",
+    "accessKey": "STS.NT3vz94sw5746D2oAXLhURwMp",
+    "configId": 1483416767203442688,
+    "domain": "video-qa.lavideo.vip",
+    "region": "ap-southeast-1",
+    "expirySeconds": 3600
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}
+
+
+///  QueryUser 17
+
+{
+  "code": 200,
+  "data": {
+    "charmLevel": 0,
+    "channel": 5,
+    "source": "PHONE",
+    "cityId": 0,
+    "empty": false,
+    "vsId": "4138615231",
+    "advertAaid": null,
+    "initBasicInfoBySystem": null,
+    "appId": "28cb238c-1f8f-44e8-b41d-3e3dcf27c0de",
+    "pris": [],
+    "appKey": null,
+    "id": 28843756,
+    "lat": 0.0,
+    "area": "",
+    "headImg": "https://video-qa.lavideo.vip/1/20230909/headImg_454768780285271441355350595210477_1694227980223441_0_1483417873035886592.jpg",
+    "lng": 0.0,
+    "productId": 301,
+    "level": 0,
+    "invitation": null,
+    "extendInfo": "{\"profile\":\"铜壶更漏残，红妆春梦阑，江上花无语，天涯人未还。倚楼闲，月明千里，隔江何处山。 — 元代·邵亨贞《后庭花·拟古》\"}",
+    "authInfo": "",
+    "privatePhotoUrl": null,
+    "name": "",
+    "campaign": "",
+    "abResult": null,
+    "displayId": 28843756,
+    "device": "TKQ1.220829.002",
+    "status": 0,
+    "birthday": "2003-08-01 00:00:00",
+    "gmtLastLogin": "2023-09-09 10:36:03",
+    "functionAuth": {
+      "enableMatchBot": null,
+      "enableBuyVip": null,
+      "enableMsgBot": null,
+      "enableScreenshot": false,
+      "putInUser": null,
+      "enableFourthPay": null,
+      "enableUseVoiceRoom": null,
+      "enableRoomTab": null,
+      "naturalUser": null
+    },
+    "role": "0",
+    "gmtModify": "2023-09-09 10:53:01",
+    "albumNum": 0,
+    "multiLang": "",
+    "specialId": null,
+    "cityName": "",
+    "countryCode": "US",
+    "nickname": "Richard",
+    "privateVideoUrl": null,
+    "lang": "",
+    "secretNum": 0,
+    "email": "",
+    "sex": 1,
+    "mobile": "+13333311111",
+    "gmtCreate": "2023-09-05 10:24:47",
+    "tagUrlList": null,
+    "userId": "454768780285271441355350595210477",
+    "newUser": false,
+    "invitationH5": null,
+    "isRegister": null
+  },
+  "success": true,
+  "requestId": null,
+  "message": "successful"
+}

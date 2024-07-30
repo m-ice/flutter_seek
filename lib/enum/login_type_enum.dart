@@ -1,0 +1,5 @@
+
+enum LoginTypeEnum{
+  phone,
+  google
+}

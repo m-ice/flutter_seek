@@ -1,0 +1,18 @@
+{
+  "landerUID": "",
+  "message": "",
+  "targetId": "",
+  "messageType":1,
+  "conversationType": 1,
+  "userId":"",
+  "appId": "",
+  "nickname": "",
+  "portrait": "",
+  "alias": "",
+  "extra": "",
+  "receivedTime": 1,
+  "sentTime": 1,
+  "unreadCount": 1,
+  "offLine": 1,
+  "top": 1
+}

@@ -1,0 +1,15 @@
+{
+  "senderId": "",
+  "senderUid": 1,
+  "senderAppId": "",
+  "receiveId": "",
+  "receiveUid": 1,
+  "messageId": 1,
+  "messageType": 1,
+  "unRead": false,
+  "headImg": "",
+  "nickName": "",
+  "extra": "",
+  "content": "",
+  "sentTime": 1
+}

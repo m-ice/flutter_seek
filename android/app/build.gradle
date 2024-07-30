@@ -1,0 +1,124 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("sign.properties")
+//keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.withReader('UTF-8') { reader ->
+        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+    }
+}
+android {
+    compileSdkVersion 33 //flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+    packagingOptions {
+
+        exclude 'META-INF/com.android.tools/proguard/coroutines.pro'
+
+        exclude 'META-INF/INDEX.LIST'
+
+        exclude 'META-INF/io.netty.versions.properties'
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        // 如打包出现Failed to transform libs.jar to match attributes
+        checkReleaseBuilds false
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "cn.yiren.flutter_d0601"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion 21 //flutter.minSdkVersion
+        targetSdkVersion 33 //flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+
+        ndk {
+            // 设置支持的 so 库架构 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    signingConfigs{
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+        debug{
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            ndk {
+                abiFilters  'armeabi-v7a',"arm64-v8a"
+            }
+            signingConfig signingConfigs.release
+            shrinkResources false
+            minifyEnabled false
+//            useProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "v${versionName}-${variant.buildType.name}-build-${versionCode}.apk"
+                }
+            }
+        }
+        debug{
+            ndk {
+                abiFilters "armeabi","armeabi-v7a","arm64-v8a","x86","x86_64"
+            }
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies{
+    implementation 'androidx.annotation:annotation:1.7.0'
+    implementation 'com.android.support:multidex:1.0.3'
+}
